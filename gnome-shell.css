@@ -201,9 +201,9 @@ StEntry {
   height: 22px;
   width: 46px;
   background-size: contain;
-  background-image: url("resource:///org/gnome/shell/theme/toggle-off-dark.svg"); }
+  background-image: url("resource:///org/gnome/shell/theme/toggle-off.svg"); }
   .toggle-switch:checked {
-    background-image: url("resource:///org/gnome/shell/theme/toggle-on-dark.svg"); }
+    background-image: url("resource:///org/gnome/shell/theme/toggle-on.svg"); }
 
 /* Slider */
 .slider {
@@ -1889,19 +1889,19 @@ StScrollBar {
     spacing: 6px; }
 
 .lg-dialog StEntry {
-  background-color: rgba(45, 45, 45, 0.56);
+  background-color: #bbbbbb;
   color: #C3C7D1;
   border-color: rgba(238, 238, 236, 0.2);
   min-height: 22px;
-  selection-background-color: #6a1bcb;
+  selection-background-color: #bbbbbb;
   selected-color: #fff; }
 
 .lg-dialog .shell-link {
-  color: #9b62ea; }
+  color: #999999; }
   .lg-dialog .shell-link:hover {
-    color: #bc8ff0; }
+    color: #dddddd; }
   .lg-dialog .shell-link:active {
-    color: #7835e4; }
+    color: #1d1f27; }
 
 .lg-dialog .actor-link {
   color: #ccc; }
@@ -1984,56 +1984,43 @@ StScrollBar {
       border-color: #1b1b1b; }
     .login-dialog .modal-dialog-button:insensitive,
     .unlock-dialog .modal-dialog-button:insensitive {
-      color: #C3C7D1;
-      border-color: #282a36;
-      background-color: #323132;
-      box-shadow: none;
+      color: #767984;
+      background-color: rgba(57, 59, 71, 0.66);
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+      border: none;
       text-shadow: none;
-      icon-shadow: none;
-      border-color: #1b1b1b;
-      background-color: #1b1b1b;
-      color: rgba(238, 238, 236, 0.7); }
+      icon-shadow: none; }
     .login-dialog .modal-dialog-button:default,
     .unlock-dialog .modal-dialog-button:default {
-      color: #fff;
-      background-color: #741dd8;
-      border-color: #21232d;
-      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-      text-shadow: 0 1px rgba(0, 0, 0, 0.2);
-      icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
-      border-color: #6a1bcb; }
+      color: #C3C7D1;
+      background-color: #1d1f27;
+      box-shadow: none;
+      border: 1px solid #21232d;
+      text-shadow: 0 1px black;
+      icon-shadow: 0 1px black; }
       .login-dialog .modal-dialog-button:default:hover, .login-dialog .modal-dialog-button:default:focus,
       .unlock-dialog .modal-dialog-button:default:hover,
       .unlock-dialog .modal-dialog-button:default:focus {
-        color: #fff;
-        background-color: #531fe1;
-        border-color: #21232d;
-        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-        text-shadow: 0 1px rgba(0, 0, 0, 0.2);
-        icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
-        background-color: #531fe1;
-        border-color: #531fe1; }
+        color: #bd93f9;
+        background-color: rgba(189, 147, 249, 0.2);
+        border: 1px solid #21232d;
+        text-shadow: 0 1px black;
+        icon-shadow: 0 1px black; }
       .login-dialog .modal-dialog-button:default:active,
       .unlock-dialog .modal-dialog-button:default:active {
-        color: #fff;
-        background-color: #5219bd;
-        border-color: #451599;
+        color: #bd93f9;
+        background-color: rgba(189, 147, 249, 0.5);
+        border: 1px solid #21232d;
         text-shadow: none;
-        icon-shadow: none;
-        box-shadow: none;
-        background-color: #4718b4;
-        border-color: #4718b4; }
+        icon-shadow: none; }
       .login-dialog .modal-dialog-button:default:insensitive,
       .unlock-dialog .modal-dialog-button:default:insensitive {
-        color: #C3C7D1;
-        border-color: #282a36;
-        background-color: #323132;
-        box-shadow: none;
+        color: #767984;
+        background-color: rgba(57, 59, 71, 0.66);
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+        border: none;
         text-shadow: none;
-        icon-shadow: none;
-        border-color: #47159e;
-        background-color: #47159e;
-        color: rgba(255, 255, 255, 0.7); }
+        icon-shadow: none; }
   .login-dialog .cancel-button,
   .login-dialog .switch-user-button,
   .login-dialog .login-dialog-session-list-button,
