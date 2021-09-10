@@ -207,20 +207,26 @@ StEntry {
 
 /* Slider */
 .slider {
-  height: 15px;
-  -barlevel-height: 3px;
-  -barlevel-background-color: #21232d;
-  -barlevel-border-width: 1px;
-  -barlevel-border-color: #21232d;
-  -barlevel-active-background-color: #6a1bcb;
-  -barlevel-active-border-color: #5f1cd4;
-  -barlevel-overdrive-color: #b2161d;
-  -barlevel-overdrive-border-color: #bc171e;
-  -barlevel-overdrive-separator-width: 1px;
-  -slider-handle-radius: 7.5px;
-  -slider-handle-border-width: 1px;
-  -slider-handle-border-color: #C3C7D1;
-  color: #C3C7D1; }
+  height: 1em;
+    color: #cbcb9f;
+    border-color: black;
+    -slider-height: 0.1em;
+    -slider-background-color: #373a4b;
+    -slider-border-color: black;
+    -slider-active-background-color: #bd93f9;
+    -slider-active-border-color: #50fa7a;
+    -slider-border-width: 0;
+    -slider-handle-radius: 6px;
+    -barlevel-height: 0.1em;
+    -barlevel-background-color: #373a4b;
+    -barlevel-border-color: black;
+    -barlevel-active-background-color: #bd93f9;
+    -barlevel-active-border-color: #50fa7a;
+    -barlevel-border-width: 0;
+    -barlevel-handle-radius: 6px;
+    -barlevel-overdrive-color: #bd93f9;
+    -barlevel-overdrive-border-color: transparent;
+    -barlevel-overdrive-separator-width: 0px; }
   .slider:hover {
     color: #rgba(40, 42, 54, 0.95); }
   .slider:active {
@@ -1337,12 +1343,12 @@ StScrollBar {
   border-color: #21232d;
   margin-top: 12px;
   margin-bottom: 6px; }
-  
+
   .search-entry:hover {
     background-color: #rgba(40, 42, 54, 0.95);
     border-color: #282828;
     color: #fafaf9; }
-  
+
   .search-entry:focus {
     padding: 6px 8px;
     border-width: 2px;
@@ -1350,7 +1356,7 @@ StScrollBar {
     border-color: #6a1bcb;
     color: #C3C7D1;
     box-shadow: inset 0 1px 2px 1px rgba(0, 0, 0, 0.2); }
-  
+
   .search-entry .search-entry-icon {
     icon-size: 1.09em;
     padding: 0 4px;
