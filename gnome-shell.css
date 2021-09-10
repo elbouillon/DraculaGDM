@@ -519,18 +519,18 @@ StScrollBar {
     color: #C3C7D1; }
   .calendar .calendar-today {
     font-weight: bold;
-    border: 1px solid transparent;
-    background-color: #6a1bcb;
-    color: #fff; }
+    border: 1px solid rgba(189, 147, 249, 0.5);
+    background-color: transparent;
+    color: #f8f8f2; }
     .calendar .calendar-today:hover, .calendar .calendar-today:focus {
-      background-color: #6e1dd8;
-      color: #fff; }
+      background-color: rgba(198, 161, 250, 0.5);
+      color: #f8f8f2; }
     .calendar .calendar-today:active, .calendar .calendar-today:selected {
-      background-color: #6a1bcb;
-      color: #fff; }
+      background-color: rgba(189, 147, 249, 0.5);
+      color: #f8f8f2; }
       .calendar .calendar-today:active:hover, .calendar .calendar-today:active:focus, .calendar .calendar-today:selected:hover, .calendar .calendar-today:selected:focus {
-        background-color: #621dd8;
-        color: #fff; }
+        background-color: rgba(198, 161, 250, 0.5);
+        color: #f8f8f2; }
   .calendar .calendar-day-with-events {
     background-image: url("resource:///org/gnome/shell/theme/calendar-today.svg"); }
     .calendar .calendar-day-with-events.calendar-work-day {
