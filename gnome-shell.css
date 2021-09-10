@@ -2093,15 +2093,15 @@ StScrollBar {
   spacing: 12px;
   width: 23em; }
   .login-dialog-user-list:expanded .login-dialog-user-list-item:selected {
-    background-color: #6a1bcb;
-    color: #fff; }
+    background-color: rgba(189, 147, 249, 0.5);
+    color: #f8f8f2; }
   .login-dialog-user-list:expanded .login-dialog-user-list-item:logged-in {
-    border-right: 2px solid #6a1bcb; }
+    border-right: 2px solid rgba(189, 147, 249, 0.5); }
 
 .login-dialog-user-list-item {
   border-radius: 12px;
   padding: 6px;
-  color: #f8f8f2; }
+  color: #6d768e; }
   .login-dialog-user-list-item:ltr .user-widget {
     padding-right: 1em; }
   .login-dialog-user-list-item:rtl .user-widget {
@@ -2111,7 +2111,7 @@ StScrollBar {
     margin-top: 6px;
     background-color: #C3C7D1; }
   .login-dialog-user-list-item:focus .login-dialog-timed-login-indicator {
-    background-color: #fff; }
+    background-color: #f8f8f2; }
 
 .user-widget-label {
   color: #C3C7D1; }
