@@ -12,6 +12,10 @@ Arch
 ```
 # pacman -S glib2
 ```
+Fedora
+```
+# dnf install glib2-devel
+```
 
 ### INSTALLATION
 ```
