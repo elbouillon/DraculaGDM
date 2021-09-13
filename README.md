@@ -1,12 +1,24 @@
 # DraculaGDM
 Modified GDM theme to match with Dracula's colors
 
+### PRE-REQUISITES
+***You must install glib2-devel to run 'glib-compile-resources'***
+
+Debian
+```
+# apt install libglib2.0-dev
+```
+Arch
+```
+# pacman -S glib2
+```
+
 ### INSTALLATION
 ```
 git clone https://github.com/xaeioux/DraculaGDM/
 glib-compile-resources gnome-shell-theme.gresources.xml
 ```
-***You must install glib2-devel to run 'glib-compile-resources'***
+
 
 _I recomend you to backup the original gnome-shell-theme.gresource into your home directory with the command_
 
