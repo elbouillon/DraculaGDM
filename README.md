@@ -20,6 +20,7 @@ Fedora
 ### INSTALLATION
 ```
 git clone https://github.com/xaeioux/DraculaGDM/
+cd DraculaGDM
 glib-compile-resources gnome-shell-theme.gresources.xml
 ```
 
